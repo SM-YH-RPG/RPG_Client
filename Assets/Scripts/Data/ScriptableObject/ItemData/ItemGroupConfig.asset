@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09a3a262945b78e448de0b2451e7f321, type: 3}
+  m_Name: ItemGroupConfig
+  m_EditorClassIdentifier: Assembly-CSharp::ItemGroupConfig
+  <ItemListConfigArray>k__BackingField:
+  - {fileID: 11400000, guid: 270ed884ace07a84da6f532a862108bb, type: 2}
+  - {fileID: 11400000, guid: a4661574cf99cd74b922c385d6f12a30, type: 2}
+  - {fileID: 11400000, guid: 8e2474342bdf9db4ab3b62278ba89b98, type: 2}
+  - {fileID: 11400000, guid: 1bbd39ee7b424ea4fbec1a10e985063d, type: 2}

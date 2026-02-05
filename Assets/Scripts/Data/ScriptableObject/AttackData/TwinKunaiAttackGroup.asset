@@ -1,0 +1,151 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7965157708674800804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e071d11bbaddd6d47891b6882fe54f2f, type: 3}
+  m_Name: WeakAttack3
+  m_EditorClassIdentifier: Assembly-CSharp::AttackConfig
+  TimedHitData:
+  - Config:
+      Type: 2
+      Offset: {x: 0, y: 0.5, z: 0.5}
+      Layers:
+        serializedVersion: 2
+        m_Bits: 1536
+      Radius: 0
+      Angle: 0
+      HalfExtend: {x: 1, y: 1, z: 1}
+      Rotation: {x: 0, y: 0.38268346, z: 0, w: 0.9238795}
+    Delay: 0
+  AnimationStateName: Attack3
+  StartTimeNormalized: 0.2
+  EndTimeNormalized: 0.8
+  DamageRate: 1
+--- !u!114 &-6441468528634072761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e071d11bbaddd6d47891b6882fe54f2f, type: 3}
+  m_Name: FallingAttack
+  m_EditorClassIdentifier: Assembly-CSharp::AttackConfig
+  TimedHitData: []
+  AnimationStateName: 
+  StartTimeNormalized: 0
+  EndTimeNormalized: 0
+  DamageRate: 1
+--- !u!114 &-1493165862078987095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e071d11bbaddd6d47891b6882fe54f2f, type: 3}
+  m_Name: WeakAttack2
+  m_EditorClassIdentifier: Assembly-CSharp::AttackConfig
+  TimedHitData:
+  - Config:
+      Type: 1
+      Offset: {x: 0, y: 0.5, z: 0.5}
+      Layers:
+        serializedVersion: 2
+        m_Bits: 1536
+      Radius: 1
+      Angle: 0
+      HalfExtend: {x: 0, y: 0, z: 0}
+      Rotation: {x: 0, y: 0, z: 0, w: 0}
+    Delay: 0
+  AnimationStateName: Attack2
+  StartTimeNormalized: 0.2
+  EndTimeNormalized: 0.8
+  DamageRate: 0.8
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c91e70812ebc2148a7bf2712723caee, type: 3}
+  m_Name: TwinKunaiAttackGroup
+  m_EditorClassIdentifier: Assembly-CSharp::AttackGroupConfig
+  <WeakAttack>k__BackingField:
+  - {fileID: 5292665524657764405}
+  - {fileID: -1493165862078987095}
+  - {fileID: -7965157708674800804}
+  <StrongAttack>k__BackingField:
+  - {fileID: 7896880122580120035}
+  <FallingAttack>k__BackingField: {fileID: -6441468528634072761}
+  <MidAirAttack>k__BackingField: {fileID: 0}
+--- !u!114 &5292665524657764405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e071d11bbaddd6d47891b6882fe54f2f, type: 3}
+  m_Name: WeakAttack1
+  m_EditorClassIdentifier: Assembly-CSharp::AttackConfig
+  TimedHitData:
+  - Config:
+      Type: 1
+      Offset: {x: 0, y: 0.5, z: 0.5}
+      Layers:
+        serializedVersion: 2
+        m_Bits: 1536
+      Radius: 1
+      Angle: 0
+      HalfExtend: {x: 0, y: 0, z: 0}
+      Rotation: {x: 0, y: 0, z: 0, w: 0}
+    Delay: 0
+  AnimationStateName: Attack1
+  StartTimeNormalized: 0.2
+  EndTimeNormalized: 0.8
+  DamageRate: 0.8
+--- !u!114 &7896880122580120035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e071d11bbaddd6d47891b6882fe54f2f, type: 3}
+  m_Name: StrongAttack1
+  m_EditorClassIdentifier: Assembly-CSharp::AttackConfig
+  TimedHitData:
+  - Config:
+      Type: 1
+      Offset: {x: 0, y: 0.5, z: 0.5}
+      Layers:
+        serializedVersion: 2
+        m_Bits: 1536
+      Radius: 1
+      Angle: 0
+      HalfExtend: {x: 0, y: 0, z: 0}
+      Rotation: {x: 0, y: 0, z: 0, w: 0}
+    Delay: 0
+  AnimationStateName: Skill1
+  StartTimeNormalized: 0
+  EndTimeNormalized: 0
+  DamageRate: 1.5

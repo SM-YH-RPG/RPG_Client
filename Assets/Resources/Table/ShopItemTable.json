@@ -1,0 +1,20 @@
+[
+  {
+    "CategoryIndex": 3,
+    "Index": 4001,
+    "Price": 100,
+    "PurchaseLimitCount": 0,
+  },
+  {
+    "CategoryIndex": 3,
+    "Index": 4101,
+    "Price": 150,
+    "PurchaseLimitCount": 0,
+  },
+  {
+    "CategoryIndex": 3,
+    "Index": 4102,
+    "Price": 200,
+    "PurchaseLimitCount": 0,
+  }
+]

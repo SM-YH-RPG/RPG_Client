@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6fe1203a4cb49a44e979ff09c6a9c8f9
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 333052
+  packageName: Female Runner Animset - Jumps
+  packageVersion: 1.0.1
+  assetPath: Assets/FemaleRunnerAnimset/Controllers/Base/Jumps/RunJump_hyper.controller
+  uploadId: 797542

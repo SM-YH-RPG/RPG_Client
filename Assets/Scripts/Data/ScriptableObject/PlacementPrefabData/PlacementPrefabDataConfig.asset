@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6093a7000004e8d42afb0a50cf5093e1, type: 3}
+  m_Name: PlacementPrefabDataConfig
+  m_EditorClassIdentifier: Assembly-CSharp::PlacementPrefabDataConfig
+  _placementPrefabDataConfigArray:
+  - TemplateIndex: 1001
+    Prefab: {fileID: 2350652681907635850, guid: 0ee3fb059183ca64fa1eecd3589d446a, type: 3}
+  - TemplateIndex: 2001
+    Prefab: {fileID: 8329339015031537696, guid: 5198eba660ec38c4d9583bba463d5bde, type: 3}
+  - TemplateIndex: 2002
+    Prefab: {fileID: 688713192018253197, guid: 14b6081d3ff3f79409f6bef6e43cce59, type: 3}
+  - TemplateIndex: 3001
+    Prefab: {fileID: 6444807355431749394, guid: 9490d2e2f3ee0be4e9281e309eb5f9ba, type: 3}
+  - TemplateIndex: 3002
+    Prefab: {fileID: 5984911598340929997, guid: 26f4d5e41e6c50b448e3a852dc489f34, type: 3}
+  - TemplateIndex: 3003
+    Prefab: {fileID: 5666652005764907772, guid: 90b6f539318cc7c4fa16425ecfb64ac4, type: 3}
+  - TemplateIndex: 3004
+    Prefab: {fileID: 8205935708373625186, guid: fb9d22b8adf542b4cba85fb2f0df92bd, type: 3}
+  - TemplateIndex: 3005
+    Prefab: {fileID: 2258748697121998048, guid: 28caf970c51ab904dabbd952b5797eab, type: 3}
+  - TemplateIndex: 3006
+    Prefab: {fileID: 4833647557030283328, guid: 25f6b3f9347e83047bc8481037fdb53b, type: 3}
+  - TemplateIndex: 3007
+    Prefab: {fileID: 1795514364784391594, guid: cb912b52e9f2b5448acdbe992883c427, type: 3}
+  - TemplateIndex: 3008
+    Prefab: {fileID: 1197006836730729220, guid: b41ef6b0fcdee1c4b9e62aa1102626d7, type: 3}
+  - TemplateIndex: 3009
+    Prefab: {fileID: 4809857706931833784, guid: fe0901a4c5c7e624d9a28c1f47e24125, type: 3}
+  - TemplateIndex: 3010
+    Prefab: {fileID: 9069948650388196236, guid: 6ee7ff501548bbd48ac085a1c22904aa, type: 3}
+  - TemplateIndex: 3011
+    Prefab: {fileID: 8457970020362098953, guid: b8cb555eb3a9a4e4988c1d6040aec95b, type: 3}
+  - TemplateIndex: 3012
+    Prefab: {fileID: 2668870538550391993, guid: 9fab22c395957814791cd1cacde48073, type: 3}
+  - TemplateIndex: 3013
+    Prefab: {fileID: 4682583824345623580, guid: 3e50b2b0d6d67a24c9c2e6c4efd2f697, type: 3}
+  - TemplateIndex: 3014
+    Prefab: {fileID: 4786360398957470091, guid: d57bb6fb2ffc3ce449e9902e05ee4e9d, type: 3}
+  - TemplateIndex: 3015
+    Prefab: {fileID: 1025607677209464, guid: 124fb29879dc61540b6b3c173eeafe39, type: 3}
+  - TemplateIndex: 3016
+    Prefab: {fileID: 1150642482621776, guid: a1b4f5aeb08a9ba409b89043963cc60b, type: 3}
+  - TemplateIndex: 3017
+    Prefab: {fileID: 1425489508226866, guid: 092df013ff76bd7428d419529e5e81cc, type: 3}

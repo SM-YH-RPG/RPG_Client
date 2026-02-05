@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a05c3783f3ed49449a0a3356bc36db30
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 329559
+  packageName: CombatGirls_DualKatanaCharacterPack
+  packageVersion: 1.1
+  assetPath: Assets/ThirdParty/CombatGirlsCharacterPack/CombatGirls_DualKatana/Animations/DualKatana_Controller.controller
+  uploadId: 838880

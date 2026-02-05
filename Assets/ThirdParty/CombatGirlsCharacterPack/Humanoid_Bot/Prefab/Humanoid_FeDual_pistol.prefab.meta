@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 0ab62579c56dc9448bc2b863eafe51b5
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 311682
+  packageName: CombatGirls_DualPistolCharacterPack
+  packageVersion: 1.1
+  assetPath: Assets/ThirdParty/CombatGirlsCharacterPack/Humanoid_Bot/Prefab/Humanoid_FeDual_pistol.prefab
+  uploadId: 838872

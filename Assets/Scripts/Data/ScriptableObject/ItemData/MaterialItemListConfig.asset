@@ -1,0 +1,218 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57cf9e9425502ea49acf35e20e761f3d, type: 3}
+  m_Name: MaterialItemListConfig
+  m_EditorClassIdentifier: Assembly-CSharp::ItemConfig
+  Category: 3
+  CategoryMaxSlotCount: 1000
+  <MaxStackCount>k__BackingField: 999
+  _itemConfigArray:
+  - template:
+      Index: 4001
+      Grade: 0
+      Category: 3
+    Name: "\uC1A1\uC774\uBC84\uC12F"
+    Description: "\uC81C\uC791\uC5D0 \uC0AC\uC6A9\uB418\uB294 \uC7AC\uB8CC\uC785\uB2C8\uB2E4."
+    AffectDescription: 
+    Sprite: {fileID: 21300000, guid: ad08ba2973409134c87c7d631ace50e7, type: 3}
+  - template:
+      Index: 4002
+      Grade: 1
+      Category: 3
+    Name: "\uC9C4\uD64D\uBC84\uC12F"
+    Description: "\uC81C\uC791\uC5D0 \uC0AC\uC6A9\uB418\uB294 \uC7AC\uB8CC\uC785\uB2C8\uB2E4."
+    AffectDescription: 
+    Sprite: {fileID: 21300000, guid: b95feb28026ea424c9f93d1f1d377aaa, type: 3}
+  - template:
+      Index: 4003
+      Grade: 2
+      Category: 3
+    Name: "\uCCAD\uD68C\uBC84\uC12F"
+    Description: "\uC81C\uC791\uC5D0 \uC0AC\uC6A9\uB418\uB294 \uC7AC\uB8CC\uC785\uB2C8\uB2E4."
+    AffectDescription: 
+    Sprite: {fileID: 21300000, guid: fc9e117bdbec87943a2b8242e325007f, type: 3}
+  - template:
+      Index: 4004
+      Grade: 0
+      Category: 3
+    Name: "\uAD11\uB300\uBC84\uC12F"
+    Description: "\uAC15\uD654\uC5D0 \uC0AC\uC6A9\uB418\uB294 \uC7AC\uB8CC\uC785\uB2C8\uB2E4."
+    AffectDescription: 
+    Sprite: {fileID: 21300000, guid: 5919a3b2e938b794bb29f65c43e8f814, type: 3}
+  - template:
+      Index: 4005
+      Grade: 1
+      Category: 3
+    Name: "\uCD08\uB85D \uAC13\uBC84\uC12F"
+    Description: "\uAC15\uD654\uC5D0 \uC0AC\uC6A9\uB418\uB294 \uC7AC\uB8CC\uC785\uB2C8\uB2E4."
+    AffectDescription: 
+    Sprite: {fileID: 21300000, guid: e624a07e6a102fb4fbe702eb9cd62f83, type: 3}
+  - template:
+      Index: 4006
+      Grade: 2
+      Category: 3
+    Name: "\uD669\uD1A0\uBC84\uC12F"
+    Description: "\uAC15\uD654\uC5D0 \uC0AC\uC6A9\uB418\uB294 \uC7AC\uB8CC\uC785\uB2C8\uB2E4."
+    AffectDescription: 
+    Sprite: {fileID: 21300000, guid: 3a0eaf106bc50a741879b998d819a872, type: 3}
+  - template:
+      Index: 4011
+      Grade: 0
+      Category: 3
+    Name: "\uD2A4\uB9BD"
+    Description: "\uAC15\uD654\uC5D0 \uC0AC\uC6A9\uB418\uB294 \uC7AC\uB8CC\uC785\uB2C8\uB2E4."
+    AffectDescription: 
+    Sprite: {fileID: 21300000, guid: 6e66f1f914aae804b8b434927380b964, type: 3}
+  - template:
+      Index: 4012
+      Grade: 1
+      Category: 3
+    Name: "\uB370\uC774\uC9C0"
+    Description: "\uAC15\uD654\uC5D0 \uC0AC\uC6A9\uB418\uB294 \uC7AC\uB8CC\uC785\uB2C8\uB2E4."
+    AffectDescription: 
+    Sprite: {fileID: 21300000, guid: a80a51bcb199d03448bb132767c04a61, type: 3}
+  - template:
+      Index: 4013
+      Grade: 2
+      Category: 3
+    Name: "\uB2E8\uB378\uB9AC\uC628"
+    Description: "\uAC15\uD654\uC5D0 \uC0AC\uC6A9\uB418\uB294 \uC7AC\uB8CC\uC785\uB2C8\uB2E4."
+    AffectDescription: 
+    Sprite: {fileID: 21300000, guid: a66cf5b237a36634f811d5a5705f6097, type: 3}
+  - template:
+      Index: 4014
+      Grade: 2
+      Category: 3
+    Name: "\uD788\uC544\uC2E0\uC2A4"
+    Description: "\uAC15\uD654\uC5D0 \uC0AC\uC6A9\uB418\uB294 \uC7AC\uB8CC\uC785\uB2C8\uB2E4."
+    AffectDescription: 
+    Sprite: {fileID: 21300000, guid: 44910c58aadbfbd4eb9aabc2fba66c4f, type: 3}
+  - template:
+      Index: 4015
+      Grade: 3
+      Category: 3
+    Name: "\uC7A5\uBBF8"
+    Description: "\uAC15\uD654\uC5D0 \uC0AC\uC6A9\uB418\uB294 \uC7AC\uB8CC\uC785\uB2C8\uB2E4."
+    AffectDescription: 
+    Sprite: {fileID: 21300000, guid: 888c3ae19c62eea49a452f4c8d543e21, type: 3}
+  - template:
+      Index: 4016
+      Grade: 4
+      Category: 3
+    Name: "\uD751\uC7A5\uBBF8"
+    Description: "\uAC15\uD654\uC5D0 \uC0AC\uC6A9\uB418\uB294 \uC7AC\uB8CC\uC785\uB2C8\uB2E4."
+    AffectDescription: 
+    Sprite: {fileID: 21300000, guid: 8297fcc74f9676840ab0928e1d194a24, type: 3}
+  - template:
+      Index: 4031
+      Grade: 0
+      Category: 3
+    Name: "\uB3CC\uC870\uAC01"
+    Description: "\uAC15\uD654\uC5D0 \uC0AC\uC6A9\uB418\uB294 \uC7AC\uB8CC\uC785\uB2C8\uB2E4."
+    AffectDescription: 
+    Sprite: {fileID: 21300000, guid: 42467611e2de7bd4c8d12719f44bbaa2, type: 3}
+  - template:
+      Index: 4032
+      Grade: 1
+      Category: 3
+    Name: "\uC554\uC11D \uD30C\uD3B8"
+    Description: "\uAC15\uD654\uC5D0 \uC0AC\uC6A9\uB418\uB294 \uC7AC\uB8CC\uC785\uB2C8\uB2E4."
+    AffectDescription: 
+    Sprite: {fileID: 21300000, guid: c66dc059253dfc1458a4b97f0083a71c, type: 3}
+  - template:
+      Index: 4033
+      Grade: 2
+      Category: 3
+    Name: "\uC5F0\uB9C8\uC11D"
+    Description: "\uAC15\uD654\uC5D0 \uC0AC\uC6A9\uB418\uB294 \uC7AC\uB8CC\uC785\uB2C8\uB2E4."
+    AffectDescription: 
+    Sprite: {fileID: 21300000, guid: 687c80dbdd73743449862118284f7c4b, type: 3}
+  - template:
+      Index: 4034
+      Grade: 3
+      Category: 3
+    Name: "\uAC15\uD654\uC11D"
+    Description: "\uAC15\uD654\uC5D0 \uC0AC\uC6A9\uB418\uB294 \uC7AC\uB8CC\uC785\uB2C8\uB2E4."
+    AffectDescription: 
+    Sprite: {fileID: 21300000, guid: cf529bdfb011e2e43a9715e7ebea9cc0, type: 3}
+  - template:
+      Index: 4035
+      Grade: 4
+      Category: 3
+    Name: "\uACB0\uC815\uC11D"
+    Description: "\uAC15\uD654\uC5D0 \uC0AC\uC6A9\uB418\uB294 \uC7AC\uB8CC\uC785\uB2C8\uB2E4."
+    AffectDescription: 
+    Sprite: {fileID: 21300000, guid: 411232fdd8721a14d87401f666f80e27, type: 3}
+  - template:
+      Index: 4101
+      Grade: 1
+      Category: 3
+    Name: "\uAC10\uC790"
+    Description: "\uC694\uB9AC\uC5D0 \uC0AC\uC6A9\uB418\uB294 \uC7AC\uB8CC\uC785\uB2C8\uB2E4."
+    AffectDescription: 
+    Sprite: {fileID: 21300000, guid: b975aa06edac1f647bc710834775b69b, type: 3}
+  - template:
+      Index: 4102
+      Grade: 2
+      Category: 3
+    Name: "\uACE0\uAE30"
+    Description: "\uC694\uB9AC\uC5D0 \uC0AC\uC6A9\uB418\uB294 \uC7AC\uB8CC\uC785\uB2C8\uB2E4."
+    AffectDescription: 
+    Sprite: {fileID: 21300000, guid: 782b735f3fb00d848b7b1f515adb9be2, type: 3}
+  - template:
+      Index: 4201
+      Grade: 1
+      Category: 3
+    Name: "\uC2AC\uB77C\uC784 \uD575"
+    Description: "\uAC15\uD654\uC5D0 \uC0AC\uC6A9\uB418\uB294 \uC7AC\uB8CC\uC785\uB2C8\uB2E4."
+    AffectDescription: 
+    Sprite: {fileID: 21300000, guid: 05b0b58f1a3205f49b610f69cd1c770a, type: 3}
+  - template:
+      Index: 4202
+      Grade: 1
+      Category: 3
+    Name: "\uAC70\uBD81\uC774 \uC54C"
+    Description: "\uAC15\uD654\uC5D0 \uC0AC\uC6A9\uB418\uB294 \uC7AC\uB8CC\uC785\uB2C8\uB2E4."
+    AffectDescription: 
+    Sprite: {fileID: 21300000, guid: 668682b653b703d409c36c9817e59dc0, type: 3}
+  - template:
+      Index: 4203
+      Grade: 1
+      Category: 3
+    Name: "\uB208\uC54C"
+    Description: "\uAC15\uD654\uC5D0 \uC0AC\uC6A9\uB418\uB294 \uC7AC\uB8CC\uC785\uB2C8\uB2E4."
+    AffectDescription: 
+    Sprite: {fileID: 21300000, guid: 4be86c5319e7f9649affb39b7c72b61c, type: 3}
+  - template:
+      Index: 4204
+      Grade: 1
+      Category: 3
+    Name: "\uC0B0\uD638"
+    Description: "\uAC15\uD654\uC5D0 \uC0AC\uC6A9\uB418\uB294 \uC7AC\uB8CC\uC785\uB2C8\uB2E4."
+    AffectDescription: 
+    Sprite: {fileID: 21300000, guid: 606bed0776411664da28323d6c2d6919, type: 3}
+  - template:
+      Index: 4205
+      Grade: 4
+      Category: 3
+    Name: "\uC6A9\uC758 \uBE44\uB298"
+    Description: "\uAC15\uD654\uC5D0 \uC0AC\uC6A9\uB418\uB294 \uC7AC\uB8CC\uC785\uB2C8\uB2E4."
+    AffectDescription: 
+    Sprite: {fileID: 21300000, guid: 2771c697194719941b9b9d15628314d8, type: 3}
+  - template:
+      Index: 4206
+      Grade: 4
+      Category: 3
+    Name: "\uC6A9\uC758 \uBF08"
+    Description: "\uAC15\uD654\uC5D0 \uC0AC\uC6A9\uB418\uB294 \uC7AC\uB8CC\uC785\uB2C8\uB2E4."
+    AffectDescription: 
+    Sprite: {fileID: 21300000, guid: b3136c0a2642fb644952d31a034824a6, type: 3}

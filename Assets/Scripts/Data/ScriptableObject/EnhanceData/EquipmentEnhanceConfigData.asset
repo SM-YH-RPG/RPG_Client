@@ -1,0 +1,367 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1dcd3c7593569f4db8256c4b256e21f, type: 3}
+  m_Name: EquipmentEnhanceConfigData
+  m_EditorClassIdentifier: Assembly-CSharp::EnhanceConfigData
+  _enhanceDataArray:
+  - Index: 1
+    Grade: 0
+    MaterialsArray:
+    - Category: 3
+      Index: 4004
+      Amount: 2
+    - Category: 3
+      Index: 4201
+      Amount: 1
+    Cost: 1000
+    EnhanceSuccessRate: 90
+  - Index: 2
+    Grade: 0
+    MaterialsArray:
+    - Category: 3
+      Index: 4004
+      Amount: 5
+    - Category: 3
+      Index: 4011
+      Amount: 3
+    - Category: 3
+      Index: 4201
+      Amount: 3
+    Cost: 1500
+    EnhanceSuccessRate: 85
+  - Index: 3
+    Grade: 0
+    MaterialsArray:
+    - Category: 3
+      Index: 4011
+      Amount: 5
+    - Category: 3
+      Index: 4005
+      Amount: 3
+    - Category: 3
+      Index: 4201
+      Amount: 3
+    - Category: 3
+      Index: 4202
+      Amount: 3
+    Cost: 2000
+    EnhanceSuccessRate: 80
+  - Index: 4
+    Grade: 0
+    MaterialsArray:
+    - Category: 3
+      Index: 4005
+      Amount: 5
+    - Category: 3
+      Index: 4012
+      Amount: 3
+    - Category: 3
+      Index: 4202
+      Amount: 5
+    Cost: 2500
+    EnhanceSuccessRate: 60
+  - Index: 1
+    Grade: 1
+    MaterialsArray:
+    - Category: 3
+      Index: 4004
+      Amount: 5
+    - Category: 3
+      Index: 4201
+      Amount: 3
+    Cost: 1500
+    EnhanceSuccessRate: 85
+  - Index: 2
+    Grade: 1
+    MaterialsArray:
+    - Category: 3
+      Index: 4005
+      Amount: 3
+    - Category: 3
+      Index: 4012
+      Amount: 3
+    - Category: 3
+      Index: 4201
+      Amount: 5
+    - Category: 3
+      Index: 4202
+      Amount: 3
+    Cost: 2000
+    EnhanceSuccessRate: 80
+  - Index: 3
+    Grade: 1
+    MaterialsArray:
+    - Category: 3
+      Index: 4005
+      Amount: 5
+    - Category: 3
+      Index: 4012
+      Amount: 5
+    - Category: 3
+      Index: 4013
+      Amount: 3
+    - Category: 3
+      Index: 4202
+      Amount: 5
+    Cost: 2500
+    EnhanceSuccessRate: 75
+  - Index: 4
+    Grade: 1
+    MaterialsArray:
+    - Category: 3
+      Index: 4012
+      Amount: 5
+    - Category: 3
+      Index: 4013
+      Amount: 5
+    - Category: 3
+      Index: 4014
+      Amount: 3
+    - Category: 3
+      Index: 4203
+      Amount: 5
+    Cost: 3000
+    EnhanceSuccessRate: 55
+  - Index: 1
+    Grade: 2
+    MaterialsArray:
+    - Category: 3
+      Index: 4004
+      Amount: 3
+    - Category: 3
+      Index: 4005
+      Amount: 3
+    - Category: 3
+      Index: 4201
+      Amount: 3
+    - Category: 3
+      Index: 4202
+      Amount: 3
+    Cost: 2000
+    EnhanceSuccessRate: 80
+  - Index: 2
+    Grade: 2
+    MaterialsArray:
+    - Category: 3
+      Index: 4005
+      Amount: 5
+    - Category: 3
+      Index: 4006
+      Amount: 3
+    - Category: 3
+      Index: 4202
+      Amount: 3
+    - Category: 3
+      Index: 4204
+      Amount: 3
+    Cost: 2500
+    EnhanceSuccessRate: 75
+  - Index: 3
+    Grade: 2
+    MaterialsArray:
+    - Category: 3
+      Index: 4006
+      Amount: 5
+    - Category: 3
+      Index: 4012
+      Amount: 5
+    - Category: 3
+      Index: 4013
+      Amount: 5
+    - Category: 3
+      Index: 4014
+      Amount: 3
+    - Category: 3
+      Index: 4204
+      Amount: 5
+    Cost: 3000
+    EnhanceSuccessRate: 70
+  - Index: 4
+    Grade: 2
+    MaterialsArray:
+    - Category: 3
+      Index: 4033
+      Amount: 5
+    - Category: 3
+      Index: 4014
+      Amount: 5
+    - Category: 3
+      Index: 4015
+      Amount: 1
+    - Category: 3
+      Index: 4201
+      Amount: 5
+    - Category: 3
+      Index: 4203
+      Amount: 5
+    Cost: 3500
+    EnhanceSuccessRate: 50
+  - Index: 1
+    Grade: 3
+    MaterialsArray:
+    - Category: 3
+      Index: 4005
+      Amount: 3
+    - Category: 3
+      Index: 4006
+      Amount: 3
+    - Category: 3
+      Index: 4011
+      Amount: 8
+    - Category: 3
+      Index: 4201
+      Amount: 5
+    - Category: 3
+      Index: 4203
+      Amount: 5
+    Cost: 3000
+    EnhanceSuccessRate: 55
+  - Index: 2
+    Grade: 3
+    MaterialsArray:
+    - Category: 3
+      Index: 4006
+      Amount: 5
+    - Category: 3
+      Index: 4011
+      Amount: 10
+    - Category: 3
+      Index: 4012
+      Amount: 8
+    - Category: 3
+      Index: 4202
+      Amount: 5
+    - Category: 3
+      Index: 4203
+      Amount: 3
+    Cost: 3500
+    EnhanceSuccessRate: 50
+  - Index: 3
+    Grade: 3
+    MaterialsArray:
+    - Category: 3
+      Index: 4006
+      Amount: 5
+    - Category: 3
+      Index: 4012
+      Amount: 5
+    - Category: 3
+      Index: 4013
+      Amount: 5
+    - Category: 3
+      Index: 4014
+      Amount: 5
+    - Category: 3
+      Index: 4203
+      Amount: 8
+    Cost: 4000
+    EnhanceSuccessRate: 45
+  - Index: 4
+    Grade: 3
+    MaterialsArray:
+    - Category: 3
+      Index: 4034
+      Amount: 5
+    - Category: 3
+      Index: 4013
+      Amount: 8
+    - Category: 3
+      Index: 4014
+      Amount: 10
+    - Category: 3
+      Index: 4015
+      Amount: 3
+    - Category: 3
+      Index: 4204
+      Amount: 8
+    Cost: 4500
+    EnhanceSuccessRate: 40
+  - Index: 1
+    Grade: 4
+    MaterialsArray:
+    - Category: 3
+      Index: 4005
+      Amount: 5
+    - Category: 3
+      Index: 4006
+      Amount: 5
+    - Category: 3
+      Index: 4012
+      Amount: 5
+    - Category: 3
+      Index: 4203
+      Amount: 5
+    - Category: 3
+      Index: 4204
+      Amount: 5
+    Cost: 5000
+    EnhanceSuccessRate: 40
+  - Index: 2
+    Grade: 4
+    MaterialsArray:
+    - Category: 3
+      Index: 4005
+      Amount: 8
+    - Category: 3
+      Index: 4006
+      Amount: 10
+    - Category: 3
+      Index: 4013
+      Amount: 8
+    - Category: 3
+      Index: 4014
+      Amount: 5
+    - Category: 3
+      Index: 4204
+      Amount: 8
+    Cost: 5500
+    EnhanceSuccessRate: 35
+  - Index: 3
+    Grade: 4
+    MaterialsArray:
+    - Category: 3
+      Index: 4006
+      Amount: 8
+    - Category: 3
+      Index: 4013
+      Amount: 8
+    - Category: 3
+      Index: 4014
+      Amount: 8
+    - Category: 3
+      Index: 4205
+      Amount: 1
+    - Category: 3
+      Index: 4206
+      Amount: 1
+    Cost: 6000
+    EnhanceSuccessRate: 30
+  - Index: 4
+    Grade: 4
+    MaterialsArray:
+    - Category: 3
+      Index: 4034
+      Amount: 5
+    - Category: 3
+      Index: 4035
+      Amount: 3
+    - Category: 3
+      Index: 4015
+      Amount: 5
+    - Category: 3
+      Index: 4205
+      Amount: 2
+    - Category: 3
+      Index: 4206
+      Amount: 2
+    Cost: 7000
+    EnhanceSuccessRate: 10

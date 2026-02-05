@@ -1,0 +1,162 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8251594979962207988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e071d11bbaddd6d47891b6882fe54f2f, type: 3}
+  m_Name: StrongAttack1
+  m_EditorClassIdentifier: Assembly-CSharp::AttackConfig
+  TimedHitData:
+  - Config:
+      Type: 1
+      Offset: {x: 0, y: 0.5, z: 0.5}
+      Layers:
+        serializedVersion: 2
+        m_Bits: 1536
+      Radius: 2
+      Angle: 0
+      HalfExtend: {x: 0, y: 0, z: 0}
+      Rotation: {x: 0, y: 0, z: 0, w: 0}
+    Delay: 0
+  AnimationStateName: Skill1
+  StartTimeNormalized: 0.2
+  EndTimeNormalized: 0.8
+  DamageRate: 0.6
+--- !u!114 &-3861628463751147037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e071d11bbaddd6d47891b6882fe54f2f, type: 3}
+  m_Name: WeakAttack3
+  m_EditorClassIdentifier: Assembly-CSharp::AttackConfig
+  TimedHitData:
+  - Config:
+      Type: 3
+      Offset: {x: 0, y: 0.5, z: 0.5}
+      Layers:
+        serializedVersion: 2
+        m_Bits: 1536
+      Radius: 1
+      Angle: 180
+      HalfExtend: {x: 0, y: 0, z: 0}
+      Rotation: {x: 0, y: 0, z: 0, w: 0}
+    Delay: 0
+  AnimationStateName: Attack3
+  StartTimeNormalized: 0.2
+  EndTimeNormalized: 0.8
+  DamageRate: 1
+--- !u!114 &-1190548303399555853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e071d11bbaddd6d47891b6882fe54f2f, type: 3}
+  m_Name: WeakAttack1
+  m_EditorClassIdentifier: Assembly-CSharp::AttackConfig
+  TimedHitData:
+  - Config:
+      Type: 2
+      Offset: {x: 0, y: 0.5, z: 0.5}
+      Layers:
+        serializedVersion: 2
+        m_Bits: 1536
+      Radius: 0
+      Angle: 0
+      HalfExtend: {x: 0.5, y: 0.5, z: 0.5}
+      Rotation: {x: 0, y: 0, z: 0, w: 0}
+    Delay: 0
+  AnimationStateName: Attack1
+  StartTimeNormalized: 0.1
+  EndTimeNormalized: 0.8
+  DamageRate: 1
+--- !u!114 &-285083189499573330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e071d11bbaddd6d47891b6882fe54f2f, type: 3}
+  m_Name: WeakAttack2
+  m_EditorClassIdentifier: Assembly-CSharp::AttackConfig
+  TimedHitData:
+  - Config:
+      Type: 1
+      Offset: {x: 0, y: 0.5, z: 0.5}
+      Layers:
+        serializedVersion: 2
+        m_Bits: 1536
+      Radius: 1
+      Angle: 0
+      HalfExtend: {x: 0, y: 0, z: 0}
+      Rotation: {x: 0, y: 0, z: 0, w: 0}
+    Delay: 0
+  AnimationStateName: Attack2
+  StartTimeNormalized: 0.1
+  EndTimeNormalized: 0.8
+  DamageRate: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c91e70812ebc2148a7bf2712723caee, type: 3}
+  m_Name: DualKatanaAttackGroup
+  m_EditorClassIdentifier: Assembly-CSharp::AttackGroupConfig
+  <WeakAttack>k__BackingField:
+  - {fileID: -1190548303399555853}
+  - {fileID: -285083189499573330}
+  - {fileID: -3861628463751147037}
+  <StrongAttack>k__BackingField:
+  - {fileID: -8251594979962207988}
+  <FallingAttack>k__BackingField: {fileID: 8893865939949462527}
+  <MidAirAttack>k__BackingField: {fileID: 0}
+--- !u!114 &8893865939949462527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e071d11bbaddd6d47891b6882fe54f2f, type: 3}
+  m_Name: FallingAttack
+  m_EditorClassIdentifier: Assembly-CSharp::AttackConfig
+  TimedHitData:
+  - Config:
+      Type: 0
+      Offset: {x: 0, y: 0, z: 0}
+      Layers:
+        serializedVersion: 2
+        m_Bits: 1536
+      Radius: 0
+      Angle: 0
+      HalfExtend: {x: 0, y: 0, z: 0}
+      Rotation: {x: 0, y: 0, z: 0, w: 0}
+    Delay: 0
+  AnimationStateName: 
+  StartTimeNormalized: 0
+  EndTimeNormalized: 0
+  DamageRate: 1

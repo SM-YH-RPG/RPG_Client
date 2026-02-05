@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8b64a52e235e7b84aae853a8a958ace2
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 311682
+  packageName: CombatGirls_DualPistolCharacterPack
+  packageVersion: 1.1
+  assetPath: Assets/CombatGirlsCharacterPack/DualPistol_Girl/Materials/Weapon/Weapon_Pistol_Style.mat
+  uploadId: 838872

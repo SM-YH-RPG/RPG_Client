@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9107972521969384890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e071d11bbaddd6d47891b6882fe54f2f, type: 3}
+  m_Name: BiteAttack
+  m_EditorClassIdentifier: Assembly-CSharp::AttackConfig
+  TimedHitData:
+  - Config:
+      Type: 2
+      Offset: {x: 0, y: 0.5, z: 4}
+      Layers:
+        serializedVersion: 2
+        m_Bits: 64
+      Radius: 0
+      Angle: 0
+      HalfExtend: {x: 1.3, y: 1, z: 1.3}
+      Rotation: {x: 0, y: 0, z: 0, w: 0}
+    Delay: 0
+  AnimationStateName: Attack01
+  StartTimeNormalized: 0.1
+  EndTimeNormalized: 0.8
+  DamageRate: 1
+--- !u!114 &-6846616891213273102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e071d11bbaddd6d47891b6882fe54f2f, type: 3}
+  m_Name: ClawAttack
+  m_EditorClassIdentifier: Assembly-CSharp::AttackConfig
+  TimedHitData:
+  - Config:
+      Type: 3
+      Offset: {x: 0, y: 0.5, z: 2}
+      Layers:
+        serializedVersion: 2
+        m_Bits: 64
+      Radius: 3
+      Angle: 180
+      HalfExtend: {x: 0, y: 0, z: 0}
+      Rotation: {x: 0, y: 0, z: 0, w: 0}
+    Delay: 0
+  AnimationStateName: Attack02
+  StartTimeNormalized: 0.1
+  EndTimeNormalized: 0.8
+  DamageRate: 1.5
+--- !u!114 &-3671622898358116133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e071d11bbaddd6d47891b6882fe54f2f, type: 3}
+  m_Name: HeadAttack
+  m_EditorClassIdentifier: Assembly-CSharp::AttackConfig
+  TimedHitData:
+  - Config:
+      Type: 2
+      Offset: {x: 0, y: 0.5, z: 4}
+      Layers:
+        serializedVersion: 2
+        m_Bits: 64
+      Radius: 0
+      Angle: 0
+      HalfExtend: {x: 1.3, y: 1, z: 1.3}
+      Rotation: {x: 0, y: 0, z: 0, w: 0}
+    Delay: 0
+  AnimationStateName: Attack03
+  StartTimeNormalized: 0.1
+  EndTimeNormalized: 0.8
+  DamageRate: 2
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c892717c1b5e21242a008a91fb0b9732, type: 3}
+  m_Name: BossAttackGroup
+  m_EditorClassIdentifier: Assembly-CSharp::BossAttackGroupConfig
+  <BiteAttack>k__BackingField: {fileID: -9107972521969384890}
+  <ClawAttack>k__BackingField: {fileID: -6846616891213273102}
+  <HeadAttack>k__BackingField: {fileID: -3671622898358116133}

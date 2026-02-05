@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8469306307480049830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 136df9bdd0eba4e46a42a9779232cff9, type: 3}
+  m_Name: Skill
+  m_EditorClassIdentifier: Assembly-CSharp::SkillConfig
+  TimedHitData:
+  - Config:
+      Type: 3
+      Offset: {x: 0, y: 0.5, z: 0.5}
+      Layers:
+        serializedVersion: 2
+        m_Bits: 1536
+      Radius: 2
+      Angle: 180
+      HalfExtend: {x: 0, y: 0, z: 0}
+      Rotation: {x: 0, y: 0, z: 0, w: 0}
+    Delay: 0
+  AnimationStateName: SKILL 2
+  StartTimeNormalized: 0.2
+  EndTimeNormalized: 0.8
+  DamageRate: 2
+  SkillInfo:
+    Type: 0
+    Cooldown: 7
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2166c5bfb591a984490c4a73119ea2f6, type: 3}
+  m_Name: HaraSkillGroup
+  m_EditorClassIdentifier: Assembly-CSharp::SkillGroupConfig
+  SkillUIGroup: {fileID: 11400000, guid: 4c35f3d7a50961943a37a8537ea9305f, type: 2}
+  <Skill>k__BackingField: {fileID: -8469306307480049830}
+  <SpecialSkill>k__BackingField: {fileID: 4834808750484659955}
+  <UltimateSkill>k__BackingField: {fileID: 6072970603947155248}
+  <AirSkill>k__BackingField: {fileID: 0}
+--- !u!114 &4834808750484659955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 136df9bdd0eba4e46a42a9779232cff9, type: 3}
+  m_Name: SpecialSkill
+  m_EditorClassIdentifier: Assembly-CSharp::SkillConfig
+  TimedHitData: []
+  AnimationStateName: 
+  StartTimeNormalized: 0
+  EndTimeNormalized: 0
+  DamageRate: 0
+  SkillInfo:
+    Type: 0
+    Cooldown: 0
+--- !u!114 &6072970603947155248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 136df9bdd0eba4e46a42a9779232cff9, type: 3}
+  m_Name: UltimateSkill
+  m_EditorClassIdentifier: Assembly-CSharp::SkillConfig
+  TimedHitData:
+  - Config:
+      Type: 1
+      Offset: {x: 0, y: 0.5, z: 0.5}
+      Layers:
+        serializedVersion: 2
+        m_Bits: 1536
+      Radius: 3
+      Angle: 0
+      HalfExtend: {x: 0, y: 0, z: 0}
+      Rotation: {x: 0, y: 0, z: 0, w: 0}
+    Delay: 0
+  AnimationStateName: SKILL 3
+  StartTimeNormalized: 0.2
+  EndTimeNormalized: 0.8
+  DamageRate: 3.5
+  SkillInfo:
+    Type: 2
+    Cooldown: 15

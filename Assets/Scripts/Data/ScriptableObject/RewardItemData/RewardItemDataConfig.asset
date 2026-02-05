@@ -1,0 +1,145 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d87458c27bc68549bee359793732dc2, type: 3}
+  m_Name: RewardItemDataConfig
+  m_EditorClassIdentifier: Assembly-CSharp::RewardItemConfig
+  _rewardItemConfigArray:
+  - Index: 0
+    RewardItemArray:
+    - CategoryType: 4
+      TemplateId: 0
+      Amount: 0
+  - Index: 1
+    RewardItemArray:
+    - CategoryType: 4
+      TemplateId: 0
+      Amount: 1000
+  - Index: 2
+    RewardItemArray:
+    - CategoryType: 4
+      TemplateId: 0
+      Amount: 1500
+  - Index: 3
+    RewardItemArray:
+    - CategoryType: 3
+      TemplateId: 4001
+      Amount: 1
+  - Index: 4
+    RewardItemArray:
+    - CategoryType: 3
+      TemplateId: 4002
+      Amount: 1
+  - Index: 5
+    RewardItemArray:
+    - CategoryType: 3
+      TemplateId: 4003
+      Amount: 1
+  - Index: 6
+    RewardItemArray:
+    - CategoryType: 3
+      TemplateId: 4004
+      Amount: 1
+  - Index: 7
+    RewardItemArray:
+    - CategoryType: 3
+      TemplateId: 4005
+      Amount: 1
+  - Index: 8
+    RewardItemArray:
+    - CategoryType: 3
+      TemplateId: 4006
+      Amount: 1
+  - Index: 9
+    RewardItemArray:
+    - CategoryType: 3
+      TemplateId: 4011
+      Amount: 1
+  - Index: 10
+    RewardItemArray:
+    - CategoryType: 3
+      TemplateId: 4012
+      Amount: 1
+  - Index: 11
+    RewardItemArray:
+    - CategoryType: 3
+      TemplateId: 4013
+      Amount: 1
+  - Index: 12
+    RewardItemArray:
+    - CategoryType: 3
+      TemplateId: 4014
+      Amount: 1
+  - Index: 13
+    RewardItemArray:
+    - CategoryType: 3
+      TemplateId: 4015
+      Amount: 1
+  - Index: 14
+    RewardItemArray:
+    - CategoryType: 3
+      TemplateId: 4016
+      Amount: 1
+  - Index: 15
+    RewardItemArray:
+    - CategoryType: 3
+      TemplateId: 4031
+      Amount: 1
+  - Index: 16
+    RewardItemArray:
+    - CategoryType: 3
+      TemplateId: 4032
+      Amount: 1
+  - Index: 17
+    RewardItemArray:
+    - CategoryType: 3
+      TemplateId: 4033
+      Amount: 1
+  - Index: 18
+    RewardItemArray:
+    - CategoryType: 3
+      TemplateId: 4034
+      Amount: 1
+  - Index: 19
+    RewardItemArray:
+    - CategoryType: 3
+      TemplateId: 4035
+      Amount: 1
+  - Index: 20
+    RewardItemArray:
+    - CategoryType: 3
+      TemplateId: 4201
+      Amount: 1
+  - Index: 21
+    RewardItemArray:
+    - CategoryType: 3
+      TemplateId: 4202
+      Amount: 1
+  - Index: 22
+    RewardItemArray:
+    - CategoryType: 3
+      TemplateId: 4203
+      Amount: 1
+  - Index: 23
+    RewardItemArray:
+    - CategoryType: 3
+      TemplateId: 4204
+      Amount: 1
+  - Index: 24
+    RewardItemArray:
+    - CategoryType: 3
+      TemplateId: 4205
+      Amount: 1
+  - Index: 25
+    RewardItemArray:
+    - CategoryType: 3
+      TemplateId: 4206
+      Amount: 1

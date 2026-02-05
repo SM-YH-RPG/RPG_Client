@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 602aec796d8b8ce49a93c61f8505c6e7
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 328146
+  packageName: CombatGirls_TwinKunaiCharacterPack
+  packageVersion: 1.0
+  assetPath: Assets/ThirdParty/CombatGirlsCharacterPack/CombatGirls_TwinKunai/Materials/Weapon/TwinKunai_Girl_Weapon
+    1.mat
+  uploadId: 838912

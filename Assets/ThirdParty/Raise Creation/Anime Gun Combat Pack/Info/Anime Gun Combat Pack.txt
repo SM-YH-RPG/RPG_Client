@@ -1,0 +1,129 @@
+Description
+
+This Anime Gun Combat Animation Pack offers stylized, dynamic gunplay with dual and single handguns — all designed in anime-style combat that will bring energy, action, and flair to your game. With a wide variety of combat movements such as shooting while jumping, sliding, dodging, and combo shots, this pack includes 40+ animations perfect for fast-paced action, futuristic shooters, and anime-inspired battle sequences. This pack includes sample gun models for reference, and you need to socket your own gun on hand_r for compatibility. All animations were created in Autodesk Maya and optimized for smooth integration into 
+
+
+Included Animations:
+
+The pack includes a wide range of Gun Combat (GC) and Dual Gun Combat (DGC) animations in both Root Motion (RM) and in-place versions. These animations cover every aspect of a character's movement in dynamic gun battles.
+
+Core Animations Include:
+
+    Idle & Loop: Smooth idle poses and looping animations for constant combat.
+
+    Walk, Run, Slide, Roll: Stylish movement for ground-based combat.
+
+    Dodge & Charge: Swift dodges and powerful charged shots for action-packed sequences.
+
+    Combo & Ultimate Skills: Perform jaw-dropping, anime-inspired combo moves and ultimate attacks.
+
+    Shoot While Moving: Shoot during walk, slide, and dodge.
+
+    Jump, Swirl, Knee Strike, Backshot: Perform aerial shoot, flashy swirl shots, and tactical knee shots with creative flair.
+
+    Shoot Charge & Fire: Precision charge shooting and dynamic firing moments.
+
+    Shoot Back & Combo Sequences: Unique moves like shoot-while-backpedaling and enhanced combo moves.
+
+Key Features:
+
+    Total of 40+ High-Quality Animations
+
+    Root Motion (RM) and In-place Versions for flexible usage in game engines
+
+    Dual Handgun (DGC) & Single Gun Combat (GC) styles
+
+    Super-Charged Ultimate Skill Animations for cinematic finishers
+
+    Combat Variety with dodges, rolls, aerial shoots, combos, and more
+
+    Anime-style Dynamic Poses that bring energy and life to your combat scenes
+
+    Works in Unreal Engine & Unity: Ready for plug-and-play integration
+
+    Easy Customization: Animations can be adapted and modified for your characters
+
+Gun Combat Animations (Single Handgun - GC_):
+
+GC_Idle
+
+GC_Idle_Loop
+
+GC_Walk
+
+GC_Run
+
+GC_Dodge_Step
+
+GC_Shoot_Idle
+
+GC_Shoot_Run
+
+GC_Shoot_Walk
+
+GC_Shoot_Combo_1
+
+GC_Shoot_Combo_2
+
+GC_Shoot_Combo_3
+
+GC_Jump_Shoot
+
+GC_Jump_Style_Spin
+
+GC_Roll_Shoot
+
+GC_Backshot
+
+GC_Knee_Shot
+
+GC_Slide_Shoot
+
+GC_Shoot_Charge_Enter
+
+GC_Shoot_Charge_Loop
+
+GC_Shoot_Charge_Fire
+
+GC_Ultimate_Skill
+
+Dual Gun Combat Animations (Dual Handgun - DGC_):
+
+DGC_Idle
+
+DGC_Idle_Loop
+
+DGC_Run
+
+DGC_Dodge_Step
+
+DGC_Shoot_Idle
+
+DGC_Shoot_Run
+
+DGC_Shoot_Walk
+
+DGC_Shoot_Back
+
+DGC_Shoot_Combo_1
+
+DGC_Shoot_Combo_2
+
+DGC_Shoot_Swirl
+
+DGC_Slide_Shoot
+
+DGC_Jump_Shoot
+
+DGC_Jump_Style_Twist
+
+DGC_Roll_Shoot
+
+DGC_Shoot_Charge_Enter
+
+DGC_Shoot_Charge_Loop
+
+DGC_Shoot_Charge_Fire
+
+DGC_Ultimate_Skill
+

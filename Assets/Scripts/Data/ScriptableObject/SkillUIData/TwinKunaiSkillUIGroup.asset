@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7412215514283028362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95f5f372207ce0647a5917ca28c77e6e, type: 3}
+  m_Name: WeekAttackSKill
+  m_EditorClassIdentifier: Assembly-CSharp::SkillUIConfig
+  isVisible: 1
+  skillUIInfo:
+    orderType: 0
+    Name: "\uC77C\uBC18\uACF5\uACA9"
+    Description: "\uC804\uBC29\uC744 \uBE60\uB974\uAC8C \uB450\uBC88 \uBCA4 \uD6C4,\\n\uBAB8\uC744
+      \uB3CC\uB9AC\uBA70 \uB9C8\uC9C0\uB9C9 \uC77C\uACA9\uC744 \uAC00\uD55C\uB2E4."
+    SkillIcon: {fileID: 21300000, guid: c961a79ba01bce544bc30358bc1f6ae4, type: 3}
+--- !u!114 &-4752340907773163191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95f5f372207ce0647a5917ca28c77e6e, type: 3}
+  m_Name: UltimateSkill
+  m_EditorClassIdentifier: Assembly-CSharp::SkillUIConfig
+  isVisible: 1
+  skillUIInfo:
+    orderType: 3
+    Name: "\uCC9C\uB77D\uAD50\uC0B4"
+    Description: "\uC21C\uC2DD\uAC04\uC5D0 \uB192\uC774 \uB6F0\uC5B4\uC62C\uB77C\\n\uB450
+      \uC790\uB8E8\uC758 \uB2E8\uAC80\uC744 \uAD50\uCC28\uD574 \uB0B4\uB9AC\uAF42\uB294\uB2E4."
+    SkillIcon: {fileID: 21300000, guid: 32291ca2bcb7c864eb95386fdd1b17c6, type: 3}
+--- !u!114 &-4621347997952869735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95f5f372207ce0647a5917ca28c77e6e, type: 3}
+  m_Name: Skill
+  m_EditorClassIdentifier: Assembly-CSharp::SkillUIConfig
+  isVisible: 1
+  skillUIInfo:
+    orderType: 2
+    Name: "\uBE44\uC5F0\uC0BC\uCC38"
+    Description: "\uC81C\uC790\uB9AC\uC5D0\uC11C \uBAB8\uC744 \uD68C\uC804\uD558\uBA70
+      \uB450 \uBC88 \uBCA0\uC5B4\uB0B8 \uB4A4,\\n\uAC00\uBCCD\uAC8C \uB6F0\uC5B4\uC62C\uB77C
+      \uCC29\uC9C0\uC640 \uD568\uAED8 \uB9C8\uC9C0\uB9C9 \uC77C\uACA9\uC744 \uAC00\uD55C\uB2E4."
+    SkillIcon: {fileID: 21300000, guid: bf1881667ef098f4599084e2b13ba5fc, type: 3}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1112852dee0180048b7f6839f9861507, type: 3}
+  m_Name: TwinKunaiSkillUIGroup
+  m_EditorClassIdentifier: Assembly-CSharp::SkillUIGroupConfig
+  <WeekAttack>k__BackingField: {fileID: -7412215514283028362}
+  <StrongAttack>k__BackingField: {fileID: 4936530431273873374}
+  <Skill>k__BackingField: {fileID: -4621347997952869735}
+  <SpecialSkill>k__BackingField: {fileID: 4376119869247725099}
+  <UltimateSkill>k__BackingField: {fileID: -4752340907773163191}
+  <AirSkill>k__BackingField: {fileID: 0}
+--- !u!114 &4376119869247725099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95f5f372207ce0647a5917ca28c77e6e, type: 3}
+  m_Name: SpecialSkill
+  m_EditorClassIdentifier: Assembly-CSharp::SkillUIConfig
+  isVisible: 0
+  skillUIInfo:
+    orderType: 0
+    Name: 
+    Description: 
+    SkillIcon: {fileID: 0}
+--- !u!114 &4936530431273873374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95f5f372207ce0647a5917ca28c77e6e, type: 3}
+  m_Name: strongAttackSKill
+  m_EditorClassIdentifier: Assembly-CSharp::SkillUIConfig
+  isVisible: 1
+  skillUIInfo:
+    orderType: 1
+    Name: "\uAC15\uACF5\uACA9"
+    Description: "\uC57D\uAC04\uC758 \uC900\uBE44 \uB3D9\uC791 \uD6C4,\\n\uC591\uC190\uC744
+      \uB4F1 \uB4A4\uB85C \uAD50\uCC28\uD558\uC5EC \uC55E\uC744 \uB0B4\uB9AC \uAF42\uB294\uB2E4."
+    SkillIcon: {fileID: 21300000, guid: ae539b5ebf1add34eb19265df9d16641, type: 3}

@@ -1,0 +1,178 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54ab030c2f9beaa47b348adccd047b2f, type: 3}
+  m_Name: EquipItemListConfig
+  m_EditorClassIdentifier: Assembly-CSharp::EquipItemListConfig
+  Category: 1
+  CategoryMaxSlotCount: 500
+  <MaxStackCount>k__BackingField: 1
+  _itemConfigArray:
+  - template:
+      Index: 2001
+      Grade: 0
+      Category: 1
+    Name: "\uBAA8\uD5D8\uAC00\uC758 \uB3CC"
+    Description: "\uBAA8\uD5D8\uAC00\uAC00 \uB418\uBA74 \uC9C0\uAE09\uBC1B\uC744
+      \uC218 \uC788\uB294 \uB3CC\uC774\uB2E4."
+    AffectDescription: "\uAC01\uC885 \uB2A5\uB825\uCE58\uAC00 \uC57D\uAC04\uC529
+      \uC99D\uAC00\uD55C\uB2E4."
+    Sprite: {fileID: 21300000, guid: 03772de61389b6c419ef62a29499424e, type: 3}
+  - template:
+      Index: 2002
+      Grade: 1
+      Category: 1
+    Name: "\uBD80\uC11C\uC9C4 \uC721\uB9DD\uC131"
+    Description: "\uB0A1\uACE0 \uD30C\uAD34\uB41C \uC721\uB9DD\uC131\uC774\uB2E4."
+    AffectDescription: "\uAC01\uC885 \uB2A5\uB825\uCE58\uAC00 \uC57D\uAC04\uC529
+      \uC99D\uAC00\uD55C\uB2E4."
+    Sprite: {fileID: 21300000, guid: 2c2339b68fe9ef140b066ada167b4029, type: 3}
+  - template:
+      Index: 2003
+      Grade: 2
+      Category: 1
+    Name: "\uC800\uC8FC\uBC1B\uC740 \uD30C\uD3B8"
+    Description: "\uC800\uC8FC\uBC1B\uC740 \uC11D\uC0C1\uC5D0\uC11C \uB5A8\uC5B4\uC838
+      \uB098\uC628 \uD30C\uD3B8\uC774\uB2E4."
+    AffectDescription: "\uAC01\uC885 \uB2A5\uB825\uCE58\uAC00 \uC99D\uAC00\uD55C\uB2E4."
+    Sprite: {fileID: 21300000, guid: 5abda677b73a60447bfed2e45f1b05df, type: 3}
+  - template:
+      Index: 2004
+      Grade: 3
+      Category: 1
+    Name: "\uBE5B\uC758 \uACB0\uC815"
+    Description: "\uBE5B\uC774 \uC751\uCD95\uB418\uC5B4 \uACB0\uC815\uD654\uB41C
+      \uD30C\uD3B8\uC774\uB2E4."
+    AffectDescription: "\uAC01\uC885 \uB2A5\uB825\uCE58\uAC00 \uC99D\uAC00\uD55C\uB2E4."
+    Sprite: {fileID: 21300000, guid: b84e6f44ac1d67b4584dae1b9261b0a0, type: 3}
+  - template:
+      Index: 2005
+      Grade: 4
+      Category: 1
+    Name: "\uD0DC\uC591\uC758 \uB3CC"
+    Description: "\uACE0\uB300\uB85C\uBD80\uD130 \uD0DC\uC591\uC5D0\uC11C \uB5A8\uC5B4\uC838
+      \uB098\uC654\uB2E4\uACE0 \uC5EC\uACA8\uC9C0\uB294 \uB3CC\uC774\uB2E4."
+    AffectDescription: "\uAC01\uC885 \uB2A5\uB825\uCE58\uAC00 \uC99D\uAC00\uD558\uBA70
+      \uAC15\uD55C\uC790\uAC00 \uCC29\uC6A9\uD558\uBA74 \uB354\uC6B1 \uAC15\uD574\uC9C4\uB2E4."
+    Sprite: {fileID: 21300000, guid: 538b69c1c49d5174ca0ef772e5f3f233, type: 3}
+  - template:
+      Index: 2006
+      Grade: 0
+      Category: 1
+    Name: "\uAE4C\uB9C8\uADC0 \uAE43\uD138"
+    Description: "\uC544\uC8FC \uAC70\uB300\uD588\uB358 \uAE4C\uB9C8\uADC0\uC758
+      \uAE43\uD138\uC774\uB2E4."
+    AffectDescription: "\uAC01\uC885 \uB2A5\uB825\uCE58\uAC00 \uC57D\uAC04\uC529
+      \uC99D\uAC00\uD55C\uB2E4."
+    Sprite: {fileID: 21300000, guid: dfebfb87cf9061d4484a7657a369e979, type: 3}
+  - template:
+      Index: 2007
+      Grade: 0
+      Category: 1
+    Name: "\uD574\uC801\uC758 \uC99D\uD45C"
+    Description: "\uD574\uC801\uB4E4\uC758 \uC2E0\uBD84\uC99D\uAC19\uC740 \uC99D\uD45C\uC774\uB2E4."
+    AffectDescription: "\uAC01\uC885 \uB2A5\uB825\uCE58\uAC00 \uC57D\uAC04\uC529
+      \uC99D\uAC00\uD55C\uB2E4."
+    Sprite: {fileID: 21300000, guid: e0605d881228f1b47b3884f81c73e22b, type: 3}
+  - template:
+      Index: 2008
+      Grade: 3
+      Category: 1
+    Name: "\uACE0\uB300 \uD050\uBE0C"
+    Description: "\uACE0\uB300 \uBB38\uBA85\uC758 \uD050\uBE0C\uC774\uB2E4."
+    AffectDescription: "\uAC01\uC885 \uB2A5\uB825\uCE58\uAC00 \uC99D\uAC00\uD55C\uB2E4."
+    Sprite: {fileID: 21300000, guid: 439db7e2541f66f4f8b83aeed6d77fa3, type: 3}
+  - template:
+      Index: 2009
+      Grade: 3
+      Category: 1
+    Name: "\uADC0\uC871\uC758 \uBB34\uB3C4\uD68C \uAC00\uBA74"
+    Description: "\uADC0\uC871\uB4E4\uC774 \uBB34\uB3C4\uD68C\uC5D0\uC11C \uC990\uACA8
+      \uCC29\uC6A9\uD558\uB294 \uAC00\uBA74\uC774\uB2E4."
+    AffectDescription: "\uAC01\uC885 \uB2A5\uB825\uCE58\uAC00 \uC99D\uAC00\uD55C\uB2E4."
+    Sprite: {fileID: 21300000, guid: 1bf8ba846bc865543af92559b568d701, type: 3}
+  - template:
+      Index: 2010
+      Grade: 3
+      Category: 1
+    Name: "\uB124\uD06C\uB85C\uB9E8\uC11C \uAD50\uBCF8"
+    Description: "\uC0AC\uC545\uD558\uB2E4\uACE0 \uC54C\uB824\uC9C4 \uD559\uBB38
+      \uB124\uD06C\uB85C\uB9E8\uC11C\uC758 \uAD50\uBCF8\uC774\uB2E4."
+    AffectDescription: "\uAC01\uC885 \uB2A5\uB825\uCE58\uAC00 \uC99D\uAC00\uD55C\uB2E4."
+    Sprite: {fileID: 21300000, guid: 752f4b28cd193d247a57716688b37c34, type: 3}
+  - template:
+      Index: 2011
+      Grade: 4
+      Category: 1
+    Name: "\uD669\uAE08\uC0AC\uC758 \uBA38\uB9AC"
+    Description: "\uC804\uC124\uB85C\uB9CC \uC804\uD574\uC9C0\uB294 \uD669\uAE08\uC0C9
+      \uBC40\uC758 \uBA38\uB9AC\uC774\uB2E4."
+    AffectDescription: "\uAC01\uC885 \uB2A5\uB825\uCE58\uAC00 \uC99D\uAC00\uD558\uBA70
+      \uAC15\uD55C\uC790\uAC00 \uCC29\uC6A9\uD558\uBA74 \uB354\uC6B1 \uAC15\uD574\uC9C4\uB2E4."
+    Sprite: {fileID: 21300000, guid: ca9025b52cc595e40818803b2be67c1c, type: 3}
+  - template:
+      Index: 2012
+      Grade: 4
+      Category: 1
+    Name: "\uB4DC\uB798\uACE4 \uD558\uD2B8"
+    Description: "\uB4DC\uB798\uACE4\uC758 \uC2EC\uC7A5\uC774\uB2E4."
+    AffectDescription: "\uAC01\uC885 \uB2A5\uB825\uCE58\uAC00 \uC99D\uAC00\uD558\uBA70
+      \uAC15\uD55C\uC790\uAC00 \uCC29\uC6A9\uD558\uBA74 \uB354\uC6B1 \uAC15\uD574\uC9C4\uB2E4."
+    Sprite: {fileID: 21300000, guid: f0b595f7a3621bd45addf56fc9c05b96, type: 3}
+  _equipmentItemConfigArray:
+  - Index: 2001
+    EquipCost: 1
+    availableMainStat: 00000000
+    availableSubStat: 000000000100000002000000
+  - Index: 2002
+    EquipCost: 1
+    availableMainStat: 04000000
+    availableSubStat: 000000000100000004000000
+  - Index: 2003
+    EquipCost: 3
+    availableMainStat: 02000000
+    availableSubStat: 02000000040000000500000006000000
+  - Index: 2004
+    EquipCost: 3
+    availableMainStat: 04000000
+    availableSubStat: 02000000010000000400000006000000
+  - Index: 2005
+    EquipCost: 4
+    availableMainStat: 01000000
+    availableSubStat: 0000000002000000030000000400000008000000
+  - Index: 2006
+    EquipCost: 1
+    availableMainStat: 02000000
+    availableSubStat: 000000000200000004000000
+  - Index: 2007
+    EquipCost: 1
+    availableMainStat: 00000000
+    availableSubStat: 010000000400000006000000
+  - Index: 2008
+    EquipCost: 1
+    availableMainStat: 04000000
+    availableSubStat: 000000000200000003000000
+  - Index: 2009
+    EquipCost: 3
+    availableMainStat: 01000000
+    availableSubStat: 00000000020000000400000005000000
+  - Index: 2010
+    EquipCost: 3
+    availableMainStat: 03000000
+    availableSubStat: 00000000020000000400000006000000
+  - Index: 2011
+    EquipCost: 4
+    availableMainStat: 02000000
+    availableSubStat: 0000000001000000030000000500000008000000
+  - Index: 2012
+    EquipCost: 4
+    availableMainStat: 01000000
+    availableSubStat: 0200000003000000040000000700000008000000

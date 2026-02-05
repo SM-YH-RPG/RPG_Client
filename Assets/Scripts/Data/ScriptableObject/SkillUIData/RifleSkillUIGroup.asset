@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9034438230270362199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95f5f372207ce0647a5917ca28c77e6e, type: 3}
+  m_Name: strongAttackSKill
+  m_EditorClassIdentifier: Assembly-CSharp::SkillUIConfig
+  isVisible: 0
+  skillUIInfo:
+    orderType: 0
+    Name: 
+    Description: 
+    SkillIcon: {fileID: 0}
+--- !u!114 &-1630906624389348880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95f5f372207ce0647a5917ca28c77e6e, type: 3}
+  m_Name: WeekAttackSKill
+  m_EditorClassIdentifier: Assembly-CSharp::SkillUIConfig
+  isVisible: 1
+  skillUIInfo:
+    orderType: 0
+    Name: "\uC77C\uBC18\uACF5\uACA9"
+    Description: "\uC804\uBC29\uC73C\uB85C \uAC15\uB825\uD55C \uB370\uBBF8\uC9C0\uB97C
+      \uC8FC\uB294\\n\uD0C4\uD658\uC744 \uD55C \uBC1C \uBC1C\uC0AC\uD55C\uB2E4."
+    SkillIcon: {fileID: 21300000, guid: 6632ca83ee2e0da4a84c217f860483d4, type: 3}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1112852dee0180048b7f6839f9861507, type: 3}
+  m_Name: RifleSkillUIGroup
+  m_EditorClassIdentifier: Assembly-CSharp::SkillUIGroupConfig
+  <WeekAttack>k__BackingField: {fileID: -1630906624389348880}
+  <StrongAttack>k__BackingField: {fileID: -9034438230270362199}
+  <Skill>k__BackingField: {fileID: 5900898383285076521}
+  <SpecialSkill>k__BackingField: {fileID: 842933668877165180}
+  <UltimateSkill>k__BackingField: {fileID: 7441224229558635343}
+  <AirSkill>k__BackingField: {fileID: 0}
+--- !u!114 &842933668877165180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95f5f372207ce0647a5917ca28c77e6e, type: 3}
+  m_Name: SpecialSkill
+  m_EditorClassIdentifier: Assembly-CSharp::SkillUIConfig
+  isVisible: 0
+  skillUIInfo:
+    orderType: 0
+    Name: 
+    Description: 
+    SkillIcon: {fileID: 0}
+--- !u!114 &5900898383285076521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95f5f372207ce0647a5917ca28c77e6e, type: 3}
+  m_Name: Skill
+  m_EditorClassIdentifier: Assembly-CSharp::SkillUIConfig
+  isVisible: 1
+  skillUIInfo:
+    orderType: 2
+    Name: "\uD504\uB85C\uC2A4\uD2B8 \uB77C\uC778"
+    Description: "\uBC29\uC544\uC1E0\uB97C \uB2F9\uAE30\uB294 \uC21C\uAC04,\\n\uC804\uBC29
+      45\uB3C4\uB97C \uAC00\uB85C\uC9C0\uB974\uB294 \uC5BC\uC74C\uC758 \uADA4\uC801\uC774
+      \uBED7\uC5B4\uB098\uAC04\uB2E4.\\n\uD0C4\uD658\uC774 \uC9C0\uB098\uAC04 \uC790\uB9AC\uC5D0\uB294
+      \uCC28\uAC00\uC6B4 \uD754\uC801\uB9CC\uC774 \uB0A8\uB294\uB2E4."
+    SkillIcon: {fileID: 21300000, guid: 8211e40229c307540aaca0300529d7f8, type: 3}
+--- !u!114 &7441224229558635343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95f5f372207ce0647a5917ca28c77e6e, type: 3}
+  m_Name: UltimateSkill
+  m_EditorClassIdentifier: Assembly-CSharp::SkillUIConfig
+  isVisible: 1
+  skillUIInfo:
+    orderType: 0
+    Name: "\uBD90 \uBE14\uB798\uC2A4\uD2B8"
+    Description: "\uBAB8\uC744 \uD2C0\uC5B4 \uC804\uBC29\uC73C\uB85C \uD3ED\uBC1C\uBB3C\uC744
+      \uB358\uC9C0\uACE0\\n\uACE7\uBC14\uB85C \uC5F0\uAE30\uAC00 \uB4A4\uC11E\uC778
+      \uD3ED\uBC1C\uC774 \uD130\uC9C4\uB2E4.\\n\uD070 \uCDA9\uACA9\uC774 \uC804\uC7A5\uC744
+      \uC0BC\uD0A8\uB2E4."
+    SkillIcon: {fileID: 21300000, guid: d7b701c71435a004c97c5b3f984718ba, type: 3}

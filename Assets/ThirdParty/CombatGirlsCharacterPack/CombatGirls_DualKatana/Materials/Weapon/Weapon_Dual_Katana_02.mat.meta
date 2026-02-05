@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a11e60edb6377dc4498ce85cf1ac8d6a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 329559
+  packageName: CombatGirls_DualKatanaCharacterPack
+  packageVersion: 1.1
+  assetPath: Assets/ThirdParty/CombatGirlsCharacterPack/CombatGirls_DualKatana/Materials/Weapon/Weapon_Dual_Katana_02.mat
+  uploadId: 838880

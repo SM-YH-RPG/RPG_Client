@@ -1,0 +1,32 @@
+[
+  {
+    "index": 0,
+    "hp": 0,
+    "damage": 0,
+    "atkSpeed": 0,
+    "moveSpeed": 0,
+    "name": "1",
+    "desc": "2",
+    "imagePath": "3"
+  },
+  {
+    "index": 1,
+    "hp": 0,
+    "damage": 0,
+    "atkSpeed": 0,
+    "moveSpeed": 0,
+    "name": "4",
+    "desc": "5",
+    "imagePath": "6"
+  },
+  {
+    "index": 2,
+    "hp": 0,
+    "damage": 0,
+    "atkSpeed": 0,
+    "moveSpeed": 0,
+    "name": "7",
+    "desc": "8",
+    "imagePath": "9"
+  }
+]

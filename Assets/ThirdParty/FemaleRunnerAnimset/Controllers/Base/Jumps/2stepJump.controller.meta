@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: fb07b71c27562bf4a9c27a6fbaf05f03
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 333052
+  packageName: Female Runner Animset - Jumps
+  packageVersion: 1.0.1
+  assetPath: Assets/FemaleRunnerAnimset/Controllers/Base/Jumps/2stepJump.controller
+  uploadId: 797542

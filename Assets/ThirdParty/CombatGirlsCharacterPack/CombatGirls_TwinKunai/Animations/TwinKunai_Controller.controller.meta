@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6589081018e3c9e449f1fbb511c7d33e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 328146
+  packageName: CombatGirls_TwinKunaiCharacterPack
+  packageVersion: 1.0
+  assetPath: Assets/ThirdParty/CombatGirlsCharacterPack/CombatGirls_TwinKunai/Animations/TwinKunai_Controller.controller
+  uploadId: 838912

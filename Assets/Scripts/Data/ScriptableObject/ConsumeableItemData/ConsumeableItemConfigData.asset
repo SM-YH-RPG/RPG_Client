@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e295654fcdb40dd4c8be7cdf62ae1e43, type: 3}
+  m_Name: ConsumeableItemConfigData
+  m_EditorClassIdentifier: Assembly-CSharp::ConsumeableItemConfigData
+  _consumeableItemDataArray:
+  - Index: 3001
+    Type: 0
+    AffectValue: 10
+    Cooldown: 5
+  - Index: 3002
+    Type: 0
+    AffectValue: 25
+    Cooldown: 10
+  - Index: 3003
+    Type: 0
+    AffectValue: 40
+    Cooldown: 15
