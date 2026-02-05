@@ -1,4 +1,20 @@
 ---
+개발 환경
+---
+* Unity 6000.2.9f1
+* PC & Mobile Cross Platform
+---
+실행 영상
+---
+* PC (CombatSystem) : https://youtu.be/vxuMjYLZQTg
+* PC (UI & GamePlaySystem) : https://youtu.be/kciX3iNThfg
+* Mobile (CombatSystem) : https://youtu.be/c7tTWrVnAlA
+---
+실행 파일
+---
+* PC : https://drive.google.com/file/d/1dBJ-j3wg51kma9jQRXk35NkmvHfB-v6H/view?usp=sharing
+* Mobile : https://drive.google.com/file/d/1J1_rnAQh3WBQVv8pXkL96QlmYyiH81P7/view?usp=sharing
+---
 개별 작업
 ---
 >**황성민 작업**
