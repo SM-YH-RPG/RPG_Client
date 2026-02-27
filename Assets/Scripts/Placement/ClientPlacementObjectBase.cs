@@ -2,11 +2,9 @@ using UnityEngine;
 
 public abstract class ClientPlacementObjectBase : MonoBehaviour
 {
-    public int _templateId;
+    public int _templateId; // WorldInfo Object Prefab Template Index
 
-    protected long _instanceId;
-
-    [SerializeField] protected int _rewardIndex;
+    protected long _instanceId;    
 
     public void SetActiveGameObject(bool isActive)
     {

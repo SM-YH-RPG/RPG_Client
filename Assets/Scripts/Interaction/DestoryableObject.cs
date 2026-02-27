@@ -8,8 +8,11 @@ public class DestoryableObject : ClientPlacementObjectBase, IAttackTarget, IResp
 
     [SerializeField]
     private float _respawnDelay = 10f;
+
+    [SerializeField]
+    private int _rewardIndex;
     #endregion
-    
+
     //.. FIXME :: Config에서 받아와야함
     [SerializeField]
     private int _maxHP = 10;

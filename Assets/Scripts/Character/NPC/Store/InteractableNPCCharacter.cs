@@ -1,13 +1,8 @@
 using UnityEngine;
 
-public abstract class InteractableNPCCharacter : ClientPlacementObjectBase, IInteractable
+public abstract class InteractableNPCCharacter : InteractionObject
 {
-    #region Inspector
-    [SerializeField]
-    private string _name;
-
-    public string InteractionTitle => _name;
-
+    #region Inspector    
     [SerializeField]
     private float _lookSpeed;
 
@@ -36,7 +31,7 @@ public abstract class InteractableNPCCharacter : ClientPlacementObjectBase, IInt
         _interactionService.OnInteractionSourceChanged -= HandleTransformChanged;
     }
 
-    public virtual void Interact()
+    public override void Interact()
     {
         if (_interactionHandler != null)
         {
@@ -44,11 +39,6 @@ public abstract class InteractableNPCCharacter : ClientPlacementObjectBase, IInt
         }
 
         _interactionService.NotifyInteractionTargetChanged(transform);
-    }
-
-    public GameObject GetGameObject()
-    {
-        return gameObject;
     }
 
     private void HandleTransformChanged(Transform transform)

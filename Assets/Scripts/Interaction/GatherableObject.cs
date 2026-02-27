@@ -21,6 +21,9 @@ public class GatherableObject : InteractionObject, IRespawnable
 
     [SerializeField]
     private float _respawnDelay = 10f;
+
+    [SerializeField]
+    private int _rewardIndex;
     #endregion
 
     private IRespawnManagerService _respawnService => RespawnManager.Instance;

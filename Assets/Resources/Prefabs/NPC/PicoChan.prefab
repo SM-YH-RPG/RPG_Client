@@ -70,7 +70,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::WeaponStoreNPC
   _templateId: 0
   _rewardIndex: 0
-  _name: "\uD53C\uCF54\uC9F1"
+  _interactionTitle: "\uD53C\uCF54\uC9F1"
+  _renderer: {fileID: 0}
+  _collider: {fileID: 0}
   _lookSpeed: 5
   _shopCategory: 1
 --- !u!114 &-5749426214588882760
