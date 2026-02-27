@@ -6,7 +6,7 @@ public class AuthPacketHandler
     {
         if (response.Success && response.Code == ENetworkStatusCode.Success)
         {
-            Debug.Log("로그인 성공 색기야");
+            Debug.Log("로그인 성공");
             
             PlayerPrefs.SetString("USER_NAME", response.User.Name);
             PlayerPrefs.SetString("IDENTIFY_CODE", response.User.IdentifyCode);
@@ -24,7 +24,7 @@ public class AuthPacketHandler
         }
         else
         {
-            Debug.Log($"로그인 실패했다 : {response.Code} Message {response.Message}");
+            Debug.Log($"로그인 실패 : {response.Code} Message {response.Message}");
         }
     }
 

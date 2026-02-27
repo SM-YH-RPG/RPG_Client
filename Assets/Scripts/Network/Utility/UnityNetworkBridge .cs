@@ -6,7 +6,7 @@ using UnityEngine;
 public class UnityNetworkBridge : MonoSingleton<UnityNetworkBridge>
 {
     [SerializeField]
-    private string _serverURL = "ec2-3-233-98-127.compute-1.amazonaws.com";
+    private string _serverURL = "";
 
     [SerializeField]
     private int _serverPort = 8080;
