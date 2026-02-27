@@ -8,6 +8,7 @@ public class StatusController : MonoBehaviour
     #region Const
     private const float FillPerSecond = 1.5f;
     private const float Epsilon = 0.0005f;
+    private const float STAMINA_REGEN_PER_SECOND = 50f; // 초당 Stamina 회복량
     #endregion
 
     #region Inspector
@@ -34,6 +35,7 @@ public class StatusController : MonoBehaviour
     private float _staminaTargetFill = 1f;    
     private float _staminaInvisibleDelayTime = 0f;
     private float _staminaFadeTime;
+    private float _recoveryTimer = 0f;
 
     private bool _isHpAnimating = false;
     private bool _isStaminaAnimating = false;    
@@ -175,10 +177,7 @@ public class StatusController : MonoBehaviour
             _staminaBar.fillAmount = _staminaTargetFill;
             _isStaminaAnimating = false;
         }
-    }
-
-    private float _recoveryTimer = 0f;
-    private const float RegenPerSecond = 20f;
+    }    
 
     private void StartStaminaGaugeFadeOutSequence()
     {
@@ -221,7 +220,7 @@ public class StatusController : MonoBehaviour
                 }
             }
 
-            _recoveryTimer += RegenPerSecond * Time.deltaTime;
+            _recoveryTimer += STAMINA_REGEN_PER_SECOND * Time.deltaTime;
 
             int staminaToAdd = Mathf.FloorToInt(_recoveryTimer);
             if (staminaToAdd <= 0)
